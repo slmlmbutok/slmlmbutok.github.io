@@ -29,6 +29,9 @@ header {
     border:none;
     color:#333;
 }
+.link-card .card-img-top {
+    flex-shrink:0;
+}
 .link-card .card-img-interior {
     border-radius:100%;
     background:white;
@@ -72,6 +75,7 @@ header {
 }
 .bio .profile-pic {
     max-width:30%;
+    flex-shrink:0;
 }
 .bio .bio-caption {
     font-size:1.2em;
