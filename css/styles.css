@@ -139,3 +139,8 @@ header {
         font-size:11px;
     }
 }
+@media (max-width:768px) {
+    .listen {
+        background-size:200%;
+    }
+}
