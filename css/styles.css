@@ -1,0 +1,132 @@
+html {
+    font-size:20px;
+}
+a:hover {
+    text-decoration:none;
+}
+header {
+    background:#FFC2CA;
+}
+.logo {
+    max-width:66%;
+    border:8px solid black;
+}
+.listen {
+    background-color:white;
+    background-image:url(../img/pyramidbg.jpg);
+    background-position:bottom;
+    background-size:100%;
+    background-repeat:no-repeat;
+}
+.listen .link-card {
+    background:white;
+}
+.link-card {
+    max-width:15em;
+    text-decoration:none;
+    margin-top:3em;
+    border-radius:0;
+    border:none;
+    color:#333;
+}
+.link-card .card-img-interior {
+    border-radius:100%;
+    background:white;
+    border:2em solid;
+    width:100%;
+}
+.link-card .card-body {
+    border-left:1px solid #333;
+    border-bottom:1px solid #333;
+    border-right:1px solid #333;
+}
+.listen .link-card .card-img-top {
+    background:#6ac9d3;
+}
+.listen .link-card .card-img-interior {
+    border-color: #6ac9d3;
+}
+.caption-box {
+    color:#333;
+    background:white;
+    border:1px solid #333;
+    padding:.5em;
+}
+.podcast-social {
+    background:url(../img/brachiatepink.jpg);
+    background-size:cover;
+}
+.podcast-social .link-card .card-img-top {
+    background:#333;
+}
+.podcast-social .link-card .card-img-interior {
+    border-color: #333;
+}
+.hosts {
+    background:url(../img/paper.jpg);
+}
+.bio {
+    padding:1em;
+    box-shadow:3px 3px 8px #aaa;
+    background:white;
+}
+.bio .profile-pic {
+    max-width:30%;
+}
+.bio .bio-caption {
+    font-size:1.2em;
+}
+.bio .twitter {
+    font-size:1.4em;
+}
+.community {
+    background:url(../img/brachiatecyan.jpg);
+    background-size:cover;
+}
+.community .link-card .card-img-top {
+    background:#FFC2CA;
+}
+.community .link-card .card-img-interior {
+    border-color:#FFC2CA;
+}
+.footer {
+    background:#333;
+    color:white;
+}
+.footer p a {
+    color:white;
+}
+.footer .copyright {
+    font-size:2em;
+    margin:0;
+}
+.footer .contact {
+    font-size:1.3em;
+    margin:0;
+}
+.footer .fine-print {
+    background:#222;
+}
+.footer .fine-print p {
+    font-size:.7em;
+    margin:.5em;
+}
+.commerce {
+    background:url(../img/dollarsandcents.jpg)
+}
+.commerce .link-card .card-img-top {
+    background:#333;
+}
+.commerce .link-card .card-img-interior {
+    border-color:#333;
+}
+@keyframes speakers {
+    0% {margin:0;}
+    19% {margin-left:.1em; margin-right:.1em;}
+    100% {margin:0;}
+}
+.listen h1 i {
+    animation-name:speakers;
+    animation-duration:.45s;
+    animation-iteration-count:infinite;
+}
