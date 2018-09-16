@@ -31,6 +31,7 @@ header {
 }
 .link-card .card-img-top {
     flex-shrink:0;
+    border-radius:0;
 }
 .link-card .card-img-interior {
     border-radius:100%;
